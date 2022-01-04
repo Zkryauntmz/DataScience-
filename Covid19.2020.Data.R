@@ -26,7 +26,7 @@ library("ggplot2")
 view(MydatasQuantile)
      
 -------------------------------------    
-    #PART 1 -  QUEST›ON  2 
+    #PART 1 -  QUEST√ùON  2 
 
   
   Mydatas %>% top_n(1000 , new_cases   ) %>% 
@@ -35,7 +35,7 @@ view(MydatasQuantile)
     arrange(-new_cases)
   
 -----------------------------------------------------------
-  #PART1 QUEST›ON 3
+  #PART1 QUEST√ùON 3
  
     Mydatas %>% 
       distinct(location, .keep_all = TRUE) %>%
@@ -48,7 +48,7 @@ view(MydatasQuantile)
 -------------------------------------------
   
       
-      # PART1 QUEST›ON 4 
+      # PART1 QUEST√ùON 4 
       MySelected<-filter(Mydatas,location ==c("Turkey","Spain","Italy") )
       
  
