@@ -8,7 +8,7 @@ library("stringr")
 
 
 
-# PART2 QUEST›ON 1
+# PART2 QUEST√ùON 1
 
 set.seed(2017555506)
 
@@ -19,13 +19,13 @@ MyStringsDatas<-unique(MyStringsDatas)
 
 
 -----------------------------
-  # PART 2 QUEST›ON 2
+  # PART 2 QUEST√ùON 2
 
   StartStrings<-str_view_all(MyStringsDatas,"^a.*e$",match=TRUE)  
 
 ----------------------
   
-  # PART2 QUEST›ON 3 
+  # PART2 QUEST√ùON 3 
   
   Stringlowel<-MyStringsDatas[str_count(MyStringsDatas,"[aeiou]")>3]
     
@@ -34,7 +34,7 @@ MyStringsDatas<-unique(MyStringsDatas)
     
 ---------------------------
       
-     #PART 2 QUEST›ON 4 
+     #PART 2 QUEST√ùON 4 
       
       
       
@@ -45,7 +45,7 @@ MyStringsDatas<-unique(MyStringsDatas)
       
       
   ------------------
-    # part2 QUEST›ON 5 
+    # part2 QUEST√ùON 5 
         
         
         words<-c("age","any","day","exp","her","pro","the")
